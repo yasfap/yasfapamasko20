@@ -6,6 +6,12 @@
 
 body {
   font-family: montserrat, sans-serif;
+  background:#B11E31;
+  background-image: url('snow1.png'), url('snow2.png'), url('snow3.png'); 
+  animation: snow 20s linear infinite;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 header {
@@ -15,12 +21,6 @@ header {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  background:#B11E31;
-  background-image: url('snow1.png'), url('snow2.png'), url('snow3.png'); 
-  animation: snow 20s linear infinite;
-  background-size: cover;
-  background-position: center;
-  position: relative;
 }
 
 @keyframes snow {
@@ -38,6 +38,7 @@ header:after {
   bottom: 0;
   z-index: 0;
 }
+
 header .content {
   position: relative;
   z-index: 1;
@@ -122,7 +123,7 @@ header .content .countdown {
   }
 }
 
-.button {
+body .button {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -136,7 +137,7 @@ header .content .countdown {
 
 .button1 {border-radius: 2px;}
 .button2 {border-radius: 4px;}
-.button3 {border-radius: 8px;}
+.button3 {border-radius: 8px; width: 250px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
 /*# sourceMappingURL=main.css.map */
