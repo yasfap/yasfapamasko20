@@ -154,6 +154,7 @@ h2{
 
 #wire{
     text-align: center;
+    color: white;
     white-space: nowrap;
     position: absolute;
     padding: 0;
@@ -167,7 +168,7 @@ h2{
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-top: 6px;
     display: block;
     width: 15px;
     height: 30px;
